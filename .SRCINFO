@@ -1,8 +1,8 @@
-pkgbase = alternate-recorder-git
+pkgbase = remote-encoder-git
 	pkgdesc = Remote encode media files.
-	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.gf4d0c86a7e15951caebc3fc974e537eafd84d893
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.r0.g26eb06e83d7bab2c558e306f056776c7baf17a04
 	pkgrel = 1
-	url = https://github.com/themartiancompany/alternate-recorder
+	url = https://github.com/themartiancompany/remote-encoder
 	arch = any
 	groups = hip
 	groups = hip-git
@@ -12,14 +12,15 @@ pkgbase = alternate-recorder-git
 	makedepends = curl
 	makedepends = jq
 	depends = dynssh
+	depends = rsync
 	optdepends = media-tools: media manipulation tools library
 	optdepends = record-tools: recording tools suite
 	optdepends = android-recorder: for recording from this device screen.
 	optdepends = android-camera-recorder: for recording from this device camera
 	optdepends = android-remote-camera-recorder: for recording from the camera of another device
-	provides = alternate-recorder=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.gf4d0c86a7e15951caebc3fc974e537eafd84d893
-	conflicts = alternate-recorder
-	source = alternate-recorder.tar.gz::https://github.com/themartiancompany/alternate-recorder/archive/refs/heads/master.tar.gz
+	provides = remote-encoder=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.r0.g26eb06e83d7bab2c558e306f056776c7baf17a04
+	conflicts = remote-encoder
+	source = remote-encoder.tar.gz::https://github.com/themartiancompany/remote-encoder/archive/refs/heads/master.tar.gz
 	sha256sums = SKIP
 
-pkgname = alternate-recorder-git
+pkgname = remote-encoder-git

@@ -9,9 +9,9 @@ _os="$( \
 _git=false
 _local=false
 _proj="hip"
-_pkgname=alternate-recorder
+_pkgname=remote-encoder
 pkgname="${_pkgname}-git"
-pkgver="0.0.0.0.0.0.0.0.0.0.0.0.0.1".r0.g"f4d0c86a7e15951caebc3fc974e537eafd84d893"
+pkgver="0.0.0.0.0.0.0.0.0.0.0.0.0.1.1".r0.g"26eb06e83d7bab2c558e306f056776c7baf17a04"
 pkgrel=1
 _pkgdesc=(
   "Remote encode media files."
@@ -32,6 +32,7 @@ license=(
 )
 depends=(
   dynssh
+  rsync
 )
 makedepends=(
   make
