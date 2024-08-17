@@ -1,0 +1,25 @@
+pkgbase = alternate-recorder-git
+	pkgdesc = Remote encode media files.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.gf4d0c86a7e15951caebc3fc974e537eafd84d893
+	pkgrel = 1
+	url = https://github.com/themartiancompany/alternate-recorder
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = dynssh
+	optdepends = media-tools: media manipulation tools library
+	optdepends = record-tools: recording tools suite
+	optdepends = android-recorder: for recording from this device screen.
+	optdepends = android-camera-recorder: for recording from this device camera
+	optdepends = android-remote-camera-recorder: for recording from the camera of another device
+	provides = alternate-recorder=0.0.0.0.0.0.0.0.0.0.0.0.0.1.r0.gf4d0c86a7e15951caebc3fc974e537eafd84d893
+	conflicts = alternate-recorder
+	source = alternate-recorder.tar.gz::https://github.com/themartiancompany/alternate-recorder/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = alternate-recorder-git
